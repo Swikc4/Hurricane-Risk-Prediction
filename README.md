@@ -18,7 +18,7 @@ This was a learning project, not a reliable forecast of future hurricane damage.
 
 ## Running the notebooks
 
-The original notebooks and CSV files are kept here. They were written in Google Colab and use manual file uploads. The Week 1 file is a notebook even though its name does not end in .ipynb.
+The original notebooks and CSV files are kept here. They were written in Google Colab and use manual file uploads. 
 
 Before rerunning, change Y_test to y_test in the evaluation cell, use the same variable name for importance in the feature chart, and remove the extra dot at the end of the top-10 chart's ticklabel_format line. The chart labels dollars as millions without dividing the values, so that axis also needs correcting. Set a NumPy random seed if you regenerate the mock exposure feature.
 
